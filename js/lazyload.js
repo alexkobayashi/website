@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (entry.isIntersecting) {
                     let img = entry.target;
                     img.src = img.getAttribute('data-src');
-                    img.removeAttribute('data-src');
+                 //   img.removeAttribute('data-src');
                     observer.unobserve(img);
                 }
             });
