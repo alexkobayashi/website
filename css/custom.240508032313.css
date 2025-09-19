@@ -1785,7 +1785,7 @@ body.edit .badge:before {
 }
 
 .bg-secondary {
-    background: #b9dbf2 !important
+    background: #3498db !important
 }
 
 .color-secondary {
@@ -4297,7 +4297,7 @@ body.open-menu .ed-element.preset-menu-v2-healthy .menu-trigger .menu-trigger-bo
 
 .ed-element.preset-boxes-v3-healthy .boxes-icon svg {
     display: block;
-    fill: #b9dbf2;
+    fill: #3498db;
     height: 48px;
     width: 48px;
     line-height: 48px
@@ -4607,7 +4607,7 @@ body.open-menu .ed-element.preset-menu-v2-healthy .menu-trigger .menu-trigger-bo
 
 .ed-element.preset-boxes-v3-healthy2 .boxes-icon {
     padding: 20px;
-    background: rgba(251, 182, 244, 0.57);
+    background: #fbb6f4;
     border-width: 1px;
     border-style: none;
     border-color: #b9dbf2;
