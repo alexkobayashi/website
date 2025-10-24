@@ -18,8 +18,14 @@
     <link rel="icon" type="image/png" href="images/96x96/8623364/alexkobayashi.png" sizes="96x96">
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/152x152/8623364/alexkobayashi.png">
     <link rel="preconnect" href="#" />
-    <link rel="stylesheet" type="text/css" media="screen" href="webcard/static/app.min.1749634410.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/custom.240508032313.css" id="customcss" />
+    <link rel="preload" href="webcard/static/app.min.1749634410.css" as="style" />
+    <link rel="stylesheet" href="webcard/static/app.min.1749634410.css" media="print" onload="this.media='all'" />
+    <link rel="preload" href="css/custom.min.css" as="style" />
+    <link rel="stylesheet" href="css/custom.min.css" media="print" onload="this.media='all'" id="customcss" />
+    <noscript>
+        <link rel="stylesheet" href="webcard/static/app.min.1749634410.css">
+        <link rel="stylesheet" href="css/custom.min.css">
+    </noscript>
     <link rel="canonical" href="index.html" />
     <script>if (!webcard) var webcard = {}; webcard.id = 660825; webcard.moduleId = 5133438; webcard.culture = "pt"; webcard.type = 2; webcard.isEdit = false; webcard.isPreview = true; webcard.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent); webcard.isTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints > 0; webcard.googleMapsEmbedApiKey = 'AIzaSyDoOLq_ts27g3vEog9sGYB0GJSyWBDK9gs'; webcard.googleMapsApiKey = ''; webcard.apiHost = location.host + '/api.php'; var extraPath = '';</script>
     <link rel="preload" as="style"
